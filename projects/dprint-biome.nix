@@ -15,8 +15,12 @@
       typescript-language-server
     ]);
   languages = {
+    typescript.enable = true;
     deno.enable = true;
-    npm.enable = true;
+    javascript = {
+      enable = true;
+      npm.enable = true;
+    };
     rust = {
       enable = true;
       channel = "stable";
