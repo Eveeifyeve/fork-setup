@@ -21,11 +21,11 @@
       enable = true;
       channel = "stable";
       components = [
-        "clippy"
-        "cargo"
-        "rust-analyzer"
         "rustc"
+        "cargo"
+        "clippy"
         "rustfmt"
+        "rust-analyzer"
       ];
       targets = [
         "wasm32-unknown-unknown"
