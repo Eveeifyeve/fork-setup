@@ -16,11 +16,15 @@
     ]);
   languages = {
     deno.enable = true;
+    npm.enable = true;
     rust = {
       enable = true;
       channel = "stable";
       components = [
         "clippy"
+        "cargo"
+        "rust-analyzer"
+        "rustc"
         "rustfmt"
       ];
       targets = [
