@@ -26,6 +26,7 @@
           formatter = pkgs.nixfmt-rfc-style;
           devenv.shells = {
             dprint-biome = ./projects/dprint-biome.nix;
+            tauri-docs = ./projects/tauri-docs.nix;
           };
         };
     };
