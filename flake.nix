@@ -19,7 +19,7 @@
         }:
         {
           formatter = pkgs.nixfmt-rfc-style;
-          devenv.shells = {
+          devShells = {
             tauri-docs = ./projects/tauri-docs.nix;
           };
         };
